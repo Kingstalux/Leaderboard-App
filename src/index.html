@@ -9,18 +9,22 @@
 <body>
     <h1>Leaderboard</h1>
 
-    <div>
-        <h2>Recent Scores</h2>
-        <button type="button">Refresh</button>
-    </div>
-
-    <div class="container"></div>
-
-    <div class="form">
-        <h2>Add your score</h2>
-        <input type="text" placeholder="Your name">
-        <input type="number" placeholder="Your score">
-        <button type="button">Submit</button>
-    </div>
+    <section class="flex">
+        <div>
+            <div class="heading flex1">
+                <h2>Recent Scores</h2>
+                <button type="button" class="button btn">Refresh</button>
+            </div>
+        
+            <div id="container"></div>
+        </div>
+    
+        <div class="form flex">
+            <h2>Add your score</h2>
+            <input type="text" placeholder="Your name" id="name">
+            <input type="number" placeholder="Your score" id="number">
+            <button type="button" id="button" class="btn">Submit</button>
+        </div>
+    </section>
 </body>
 </html>
