@@ -1,3 +1,8 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   font-family: 'Balsamiq Sans', cursive;
   line-height: 24px;
@@ -15,7 +20,7 @@ body {
 }
 
 .flex1 p {
-  margin-right: 1em;
+  padding-right: 1em;
 }
 
 .form {
@@ -29,11 +34,12 @@ body {
 }
 
 .button {
-  margin-left: 1em;
+  margin-left: 2em;
 }
 
 input {
   margin: 1em;
+  border: 0.15em solid black;
 }
 
 #button {
@@ -44,4 +50,21 @@ input {
 .heading {
   align-items: center;
   justify-content: space-between;
+}
+
+.container div {
+  height: min-content;
+  padding-left: 1em;
+}
+
+.container {
+  border: 0.15em solid black;
+}
+
+.container div:nth-child(even) {
+  background-color: grey;
+}
+
+::placeholder {
+  color: #1c1c1c;
 }
