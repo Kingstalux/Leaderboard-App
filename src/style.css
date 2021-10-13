@@ -1,0 +1,43 @@
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.form {
+  flex-direction: column;
+}
+
+.btn {
+  background-color: white;
+  height: 2em;
+}
+
+.button {
+  margin-left: 1em;
+}
+
+input {
+  margin: 1em;
+}
+
+#button {
+  width: fit-content;
+  margin-left: 10em;
+}
+
+.heading {
+  align-items: center;
+}
