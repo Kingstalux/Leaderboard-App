@@ -1,0 +1,70 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: 'Balsamiq Sans', cursive;
+  line-height: 24px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex1 {
+  display: flex;
+}
+
+.flex1 p {
+  padding-right: 1em;
+}
+
+.form {
+  flex-direction: column;
+  height: max-content;
+}
+
+.btn {
+  background-color: white;
+  height: 2em;
+}
+
+.button {
+  margin-left: 2em;
+}
+
+input {
+  margin: 1em;
+  border: 0.15em solid black;
+}
+
+#button {
+  width: fit-content;
+  margin-left: 10em;
+}
+
+.heading {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container div {
+  height: min-content;
+  padding-left: 1em;
+}
+
+.container {
+  border: 0.15em solid black;
+}
+
+.container div:nth-child(even) {
+  background-color: grey;
+}
+
+::placeholder {
+  color: #1c1c1c;
+}
