@@ -12,12 +12,15 @@ body {
 
 .flex1 {
   display: flex;
-  justify-content: space-between;
 }
 
+.flex1 p {
+  margin-right: 1em;
+}
 
 .form {
   flex-direction: column;
+  height: max-content;
 }
 
 .btn {
@@ -40,4 +43,5 @@ input {
 
 .heading {
   align-items: center;
+  justify-content: space-between;
 }
