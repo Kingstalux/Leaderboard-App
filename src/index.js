@@ -16,7 +16,7 @@ const getData = async () => {
     const number = element.score;
     displayData(name, number);
   });
-}
+};
 
 getData();
 
