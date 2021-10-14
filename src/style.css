@@ -68,3 +68,11 @@ input {
 ::placeholder {
   color: #1c1c1c;
 }
+
+.body {
+  justify-content: center;
+}
+
+.div {
+  margin-right: 6em;
+}

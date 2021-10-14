@@ -32,7 +32,8 @@ To get a local copy up and running follow these simple example steps.
 - `$ git clone https://github.com/Kingstalux/Leaderboard-App`
 - `$ cd leaderboard-app`
 - run the command `code .` to open the file in VS Code
-- run the command `Shift+Alt+R` to open the file in the browser
+- run the command `npm install` to install the necessary files
+- run the command `npm start` to open the code in the browser with webpack server
 
 
 ## Authors
