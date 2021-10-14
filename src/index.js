@@ -4,7 +4,7 @@ import displayData from './script1.js';
 
 const form = document.getElementById('form');
 
-async function getData() {
+const getData = async () => {
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/mTnreNhieKoISaSkVF7a/scores');
 
   const json = await response.json();
@@ -25,7 +25,7 @@ form.addEventListener('submit', (e) => {
   const name = document.getElementById('name').value;
   const score = document.getElementById('number').value;
 
-  async function createGame() {
+  const createGame = async () => {
     const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {
       method: 'post',
       body: JSON.stringify({
@@ -39,7 +39,7 @@ form.addEventListener('submit', (e) => {
     const json = await response.json();
   }
 
-  async function postScores() {
+  const postScores = async () => {
     const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/mTnreNhieKoISaSkVF7a/scores', {
       method: 'post',
       body: JSON.stringify({
