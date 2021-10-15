@@ -1,6 +1,11 @@
 h1 {
   display: flex;
   justify-content: center;
+  color: blue;
+}
+
+h2 {
+  color: blue;
 }
 
 body {
@@ -38,12 +43,23 @@ body {
   width: max-content;
   padding-inline: 0.85em;
   border-radius: 1em;
-  background-color: white;
+  /* background-color: white; */
+  background-color: blue;
+  color: white;
   border: none;
 }
 
 .btn:hover {
   cursor: pointer;
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+
+.btn:active {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
 }
 
 .button {
@@ -83,6 +99,7 @@ input {
 
 ::placeholder {
   color: #1c1c1c;
+  color: blue;
 }
 
 input:focus {
