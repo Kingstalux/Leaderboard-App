@@ -11,7 +11,8 @@ const getData = async () => {
 
   const container = document.getElementById('container');
   container.innerHTML = '';
-  json.result.forEach((element) => {
+  const sortArr = json.result.sort((a, b) => b.score - a.score);
+  sortArr.forEach((element) => {
     const name = element.user;
     const number = element.score;
     displayData(name, number);
@@ -64,3 +65,10 @@ form.addEventListener('submit', (e) => {
 document.getElementById('refresh').addEventListener('click', () => {
   getData();
 });
+
+// const getScores = async (cont) => {
+//   const response = await fetch(scoresUrl);
+//   const jsonData = await response.json();
+//   const sortArr = jsonData.result.sort((a, b) => b.score - a.score);
+//   frameCreation(sortArr, cont);
+// };
