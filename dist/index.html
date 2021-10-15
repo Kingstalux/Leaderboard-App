@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpack</title>
-<script defer src="main.js"></script></head>
+    <title>Leaderboard App</title>
+<script defer src="/main.js"></script></head>
 <body>
-    <h1>Hello webpack!</h1>
+    <h1>Leaderboard</h1>
+
+    <section class="body flex">
+        <div class="div">
+            <div class="heading flex">
+                <h2>Recent scores</h2>
+                <button type="button" class="button btn" id="refresh">Refresh</button>
+            </div>
+        
+            <div class="container" id="container"></div>
+        </div>
+    
+        <form class="form flex" id="form">
+            <h2>Add your score</h2>
+            <input type="text" placeholder="Your name" id="name">
+            <input type="number" placeholder="Your score" id="number">
+            <button type="submit" id="button" class="btn">Submit</button>
+        </form>
+    </section>
 </body>
 </html>

@@ -1,6 +1,4 @@
-const displayData = () => {
-  const name = document.getElementById('name').value;
-  const number = document.getElementById('number').value;
+const displayData = (name, number) => {
   const p1 = document.createElement('p');
   p1.innerHTML = `${name}:`;
   const p2 = document.createElement('p');
