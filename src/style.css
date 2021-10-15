@@ -1,6 +1,15 @@
+* {
+  color: blue;
+}
+
 h1 {
   display: flex;
   justify-content: center;
+  color: blue;
+}
+
+h2 {
+  color: blue;
 }
 
 body {
@@ -8,6 +17,7 @@ body {
   line-height: 24px;
   font-weight: normal;
   font-style: normal;
+  background-image: url('images/wallpaper5.jpg');
 }
 
 .flex {
@@ -17,6 +27,7 @@ body {
 
 .flex1 {
   display: flex;
+  justify-content: space-between;
 }
 
 .flex1 p {
@@ -26,11 +37,32 @@ body {
 .form {
   flex-direction: column;
   height: max-content;
+  background-color: #6ea5c3;
+  margin-top: 1em;
+  padding: 1em;
+  border-radius: 1em;
 }
 
 .btn {
+  height: 2.7em;
+  width: max-content;
+  padding-inline: 0.85em;
+  border-radius: 1em;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
   background-color: white;
-  height: 2em;
+  color: blue;
+}
+
+.btn:active {
+  cursor: pointer;
+  background-color: blue;
+  color: white;
 }
 
 .button {
@@ -39,7 +71,9 @@ body {
 
 input {
   margin: 1em;
-  border: 0.15em solid black;
+  border: none;
+  padding: 0.6em;
+  border-radius: 1em;
 }
 
 #button {
@@ -58,15 +92,21 @@ input {
 }
 
 .container {
-  border: 0.15em solid black;
+  border: 0.15em solid #6ea5c3;
+  border-radius: 1em;
 }
 
 .container div:nth-child(even) {
-  background-color: grey;
+  background-color: white;
 }
 
 ::placeholder {
   color: #1c1c1c;
+  color: blue;
+}
+
+input:focus {
+  outline: none;
 }
 
 .body {

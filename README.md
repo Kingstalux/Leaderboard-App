@@ -2,8 +2,7 @@
 
 # Leaderboard App
 
->I am setting up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I have developped a first working version of the app following a wireframe, but with minimum styling just focusing on the functionality. Next I've implemented the API functionality. A user can post their favourite Game of Thrones character with their score which should be less than 1000. The data is send to the API and when the user clicks on the refresh button, the data is gotten from the API and displayed on the page. On refreshing the page, the correct lists is gotten from the API and displayed.
-
+>I am setting up a JavaScript project for the Leaderboard list app, using Webpack and ES6 features, notably modules. I have developed a first working version of the app following a wireframe, but with minimum styles just focusing on the functionality. Next, I've implemented the API functionality. A user can post their favorite Game of Thrones character with their score, which should be less than 1000. The data is then sent to the API and when the user clicks on the refresh button, the data is gotten from the API and displayed on the page. On refreshing the page, the correct list is gotten from the API and displayed. For the final milestone, I added some styles to improve the look and feel of the application.
 
 ## Built With
 
@@ -36,7 +35,7 @@ To get a local copy up and running follow these simple example steps.
 - run the command `npm start` to open the code in the browser with webpack server
 
 
-## Authors
+## Author
 
 👤 **Ngu Kingsely**
 
