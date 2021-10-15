@@ -66,9 +66,3 @@ document.getElementById('refresh').addEventListener('click', () => {
   getData();
 });
 
-// const getScores = async (cont) => {
-//   const response = await fetch(scoresUrl);
-//   const jsonData = await response.json();
-//   const sortArr = jsonData.result.sort((a, b) => b.score - a.score);
-//   frameCreation(sortArr, cont);
-// };
