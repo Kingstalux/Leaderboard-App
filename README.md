@@ -14,7 +14,7 @@
 
 ## Webpack server
 
-[Server link](http://localhost:8080/)
+[Server link](https://kingstalux.github.io/Leaderboard-App/dist/)
 
 ## Getting Started
 
