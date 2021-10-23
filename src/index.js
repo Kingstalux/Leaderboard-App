@@ -1,6 +1,9 @@
 // import _ from 'lodash';
 import './style.css';
 import displayData from './script1.js';
+import wallpaper5 from './wallpaper5.jpg'
+
+document.body.style.backgroundImage = wallpaper5
 
 const form = document.getElementById('form');
 
